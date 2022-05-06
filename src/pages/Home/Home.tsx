@@ -1,5 +1,6 @@
 import { Stack } from "@mui/material";
 import React, { useContext } from "react";
+import ConnectWallet from "../../components/ConnectWallet/ConnectWallet";
 import Count from "../../components/Count/Count";
 import SimpleButton from "../../components/SimpleButton/SimpleButton";
 import TodoList from "../../components/TodoList.tsx/TodoList";
@@ -33,6 +34,8 @@ export default function Home() {
       </Stack>
       <Count count={count} />
       <TodoList todos={todos} />
+
+      <ConnectWallet />
     </React.Fragment>
   );
 }
