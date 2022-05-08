@@ -1,5 +1,3 @@
-# TODO: Check Storybook
-
 ### What is the purpuse of this repo?
 
 This repo shows a basic architecture of a React app.
